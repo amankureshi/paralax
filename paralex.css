@@ -1,0 +1,79 @@
+  html,
+  body {
+      height: 100%;
+      margin: 0;
+      font-size: 17px;
+      font-family: "lato", sans-serif;
+      font-weight: 400;
+      line-height: 1.8em;
+      color: rgb(80, 70, 70);
+  }
+
+  .p_image1 {
+      background-image: url(https://github.com/anshuopinion/10-Practice-Project-Html-CSS/blob/Project-3-Parallax-Website/Project%203/images/image1.png?raw=true);
+      height: 100%;
+      position: relative;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+
+  .p_image1,
+  .p_image2,
+  .p_image3 {
+      position: relative;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  }
+
+  .p_image1 {
+      /* background-image: url(images/natural\ image\ 1.png); */
+      min-height: 100%;
+  }
+
+  .p_image2 {
+      background-image: url(https://raw.githubusercontent.com/anshuopinion/10-Practice-Project-Html-CSS/Project-3-Parallax-Website/Project%203/images/image2.png);
+      min-height: 400px;
+  }
+
+  .p_image3 {
+      background-image: url(https://tyndall.ac.uk/wp-content/uploads/2022/12/lukasz-szmigiel-jFCViYFYcus-unsplash-1536x1023.jpg);
+      min-height: 400px;
+  }
+
+  .p_text {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      text-align: center;
+      -color: black;
+      font-size: 36px;
+      letter-spacing: 8px;
+      text-transform: uppercase;
+
+  }
+
+  .text_bg {
+      background-color: rgb(36, 32, 32);
+      color: whitesmoke;
+      padding: 20px;
+
+  }
+
+  .section {
+      padding: 50px 80px;
+      text-align: center;
+  }
+
+  .section_light {
+      background-color: silver;
+      color: #3e3838;
+
+  }
+
+  .section_dark {
+      background-color: #282e34;
+      color: #ddd;
+  }
