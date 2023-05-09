@@ -29,17 +29,17 @@
   }
 
   .p_image1 {
-      /* background-image: url(images/natural\ image\ 1.png); */
+      background-image: url(https://picsum.photos/id/237/600/900);
       min-height: 100%;
   }
 
   .p_image2 {
-      background-image: url(https://raw.githubusercontent.com/anshuopinion/10-Practice-Project-Html-CSS/Project-3-Parallax-Website/Project%203/images/image2.png);
+      background-image: url(https://picsum.photos/seed/picsum/600/900);
       min-height: 400px;
   }
 
   .p_image3 {
-      background-image: url(https://tyndall.ac.uk/wp-content/uploads/2022/12/lukasz-szmigiel-jFCViYFYcus-unsplash-1536x1023.jpg);
+      background-image: url(https://picsum.photos/600/900);
       min-height: 400px;
   }
 
